@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+
+  nginx-lb:
+    build:
+      context: ./images/nginx-lb
+      dockerfile: Dockerfile
+    image: nginx-lb:latest
+    ports:
+      - "4000:80"
+      - "4001:443"
+    volumes:
+      - ./images/nginx-lb:/etc/nginx
+    depends_on:
+      - nginx-01
+      - nginx-02
+
+  nginx-01:
+    image: nginx
+    volumes:
+      - ./my-site:/usr/share/nginx/html
+
+  nginx-02:
+    image: nginx
+    volumes:
+      - ./my-site:/usr/share/nginx/html

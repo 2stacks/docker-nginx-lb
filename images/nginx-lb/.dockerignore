@@ -1,0 +1,4 @@
+*.md
+*.swp
+.dockerignore
+Dockerfile
