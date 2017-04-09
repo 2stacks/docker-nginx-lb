@@ -1,9 +1,9 @@
 # NGINX feature test on Docker
 
 [![Build Status](https://travis-ci.org/2stacks/docker-nginx-lb.svg?branch=master)](https://travis-ci.org/2stacks/docker-nginx-lb)
-[![Docker Stars](https://img.shields.io/docker/stars/2stacks/ovpn.svg)](https://hub.docker.com/r/2stacks/nginx-lb/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/2stacks/ovpn.svg)](https://hub.docker.com/r/2stacks/nginx-lb/)
-[![ImageLayers](https://images.microbadger.com/badges/image/2stacks/ovpn.svg)](https://microbadger.com/images/2stacks/nginx-lb "Get your own image badge on microbadger.com")
+[![Docker Stars](https://img.shields.io/docker/stars/2stacks/nginx-lb.svg)](https://hub.docker.com/r/2stacks/nginx-lb/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/2stacks/nginx-lb.svg)](https://hub.docker.com/r/2stacks/nginx-lb/)
+[![ImageLayers](https://images.microbadger.com/badges/image/2stacks/nginx-lb.svg)](https://microbadger.com/images/2stacks/nginx-lb "Get your own image badge on microbadger.com")
 
 Builds an NGINX Loadbalancer to balance the load of two NGINX webservers. Webserver content can be updated on the fly by updating files insside of 'my-site' directory.
 
