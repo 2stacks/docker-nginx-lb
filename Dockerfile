@@ -1,3 +1,5 @@
+FROM nginx
+
 ARG BUILD_DATE
 
 LABEL maintainer="2stacks@2stacks.net" \
