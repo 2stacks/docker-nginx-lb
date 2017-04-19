@@ -7,7 +7,7 @@
 
 Builds an NGINX Loadbalancer to balance the load of two NGINX web servers. Web server content can be updated on the fly by updating files inside of 'my-site' directory. This project was composed in a folder named 'dock-cp-nginx-lb' which resulted in a project-name of dockcpnginxlb. If your folder name differs use your project-name prefix when running validation commands.
 
-This documentation doesn't cover installation of docker or docker compose view the following links for more information. To get started clone this GitHub repository to a host with docker and docker-compose.
+This documentation doesn't cover the installation of docker or docker-compose. View the following links for more information on installing Docker. To get started, clone this GitHub repository to a host running docker and docker-compose.
 
 * [Install Docker](https://docs.docker.com/engine/installaion)
 * [Install Docker Compose](https://docs.docker.com/compose/overview)
