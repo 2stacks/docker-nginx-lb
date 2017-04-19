@@ -9,4 +9,4 @@ LABEL maintainer="2stacks@2stacks.net" \
       net.2stacks.description="Dockerfile for autobuilds" \
       net.2stacks.url="http://www.2stacks.net" \
       net.2stacks.vcs-type="Git" \
-      net.2stacks.version="0.1-Alpha" \
+      net.2stacks.version="0.1-Alpha"
