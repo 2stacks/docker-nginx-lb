@@ -1,9 +1,7 @@
 # NGINX feature test on Docker
 
 [![Build Status](https://travis-ci.org/2stacks/docker-nginx-lb.svg?branch=master)](https://travis-ci.org/2stacks/docker-nginx-lb)
-[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/2stacks/docker-nginx-lb)
 [![ImageLayers](https://images.microbadger.com/badges/image/2stacks/nginx-lb.svg)](https://microbadger.com/images/2stacks/nginx-lb)
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/2stacks/docker-nginx-lb)
 
 Builds an NGINX Loadbalancer to balance the load of two NGINX web servers. Web server content can be updated on the fly by updating files inside of 'my-site' directory. This project was composed in a folder named 'dock-cp-nginx-lb' which resulted in a project-name of dockcpnginxlb. If your folder name differs use your project-name prefix when running validation commands.
 
